@@ -1,0 +1,26 @@
+# Per-session hook state (loop-guard counters) — never commit
+.codex/sessions/
+
+# OS cruft
+.DS_Store
+
+# Transcribe skill cache (raw STT + diarization output)
+*.transcribe.json
+
+# Local secrets (Tavily key for $research)
+.env
+
+# Night run marker and Codex worktrees (night mode)
+.codex/state/
+.codex/worktrees/
+
+# ast-index project marker (index itself lives in ~/Library/Caches/ast-index)
+.ast-index-root
+
+.env.*
+!.env.example
+__pycache__/
+
+# Local Xcode build products and per-user settings
+.build/
+xcuserdata/

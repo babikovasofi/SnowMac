@@ -1,0 +1,9 @@
+model = "gpt-6.2-sol"
+model_reasoning_effort = "low"
+
+# Enable only if the connected Tavily plugin is unavailable and a key is configured.
+[mcp_servers.tavily-research]
+enabled = false
+command = "bash"
+args = [".codex/scripts/tavily-mcp.sh"]
+startup_timeout_sec = 30

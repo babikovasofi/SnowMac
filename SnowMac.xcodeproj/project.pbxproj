@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		10A000000000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10A000000000000000000010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10A000000000000000000011;
+			remoteInfo = SnowMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10A000000000000000000020 /* SnowMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10A000000000000000000021 /* SnowMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		10A000000000000000000030 /* SnowMac */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			name = SnowMac;
+			path = Sources/SnowMac;
+			sourceTree = "<group>";
+		};
+		10A000000000000000000031 /* SnowMacTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			name = SnowMacTests;
+			path = Tests/SnowMacTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10A000000000000000000040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10A000000000000000000041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10A000000000000000000050 = {
+			isa = PBXGroup;
+			children = (
+				10A000000000000000000030 /* SnowMac */,
+				10A000000000000000000031 /* SnowMacTests */,
+				10A000000000000000000051 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10A000000000000000000051 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10A000000000000000000020 /* SnowMac.app */,
+				10A000000000000000000021 /* SnowMacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10A000000000000000000011 /* SnowMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A000000000000000000071 /* Build configuration list for PBXNativeTarget "SnowMac" */;
+			buildPhases = (
+				10A000000000000000000060 /* Sources */,
+				10A000000000000000000040 /* Frameworks */,
+				10A000000000000000000062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				10A000000000000000000030 /* SnowMac */,
+			);
+			name = SnowMac;
+			productName = SnowMac;
+			productReference = 10A000000000000000000020 /* SnowMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10A000000000000000000012 /* SnowMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A000000000000000000072 /* Build configuration list for PBXNativeTarget "SnowMacTests" */;
+			buildPhases = (
+				10A000000000000000000061 /* Sources */,
+				10A000000000000000000041 /* Frameworks */,
+				10A000000000000000000063 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10A000000000000000000002 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				10A000000000000000000031 /* SnowMacTests */,
+			);
+			name = SnowMacTests;
+			productName = SnowMacTests;
+			productReference = 10A000000000000000000021 /* SnowMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10A000000000000000000010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					10A000000000000000000011 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					10A000000000000000000012 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 10A000000000000000000011;
+					};
+				};
+			};
+			buildConfigurationList = 10A000000000000000000070 /* Build configuration list for PBXProject "SnowMac" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10A000000000000000000050;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 10A000000000000000000051 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10A000000000000000000011 /* SnowMac */,
+				10A000000000000000000012 /* SnowMacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10A000000000000000000062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10A000000000000000000063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10A000000000000000000060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10A000000000000000000061 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10A000000000000000000002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10A000000000000000000011 /* SnowMac */;
+			targetProxy = 10A000000000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10A000000000000000000080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		10A000000000000000000081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		10A000000000000000000082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SnowMac;
+				INFOPLIST_KEY_LSUIElement = YES;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.snowmac.SnowMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10A000000000000000000083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SnowMac;
+				INFOPLIST_KEY_LSUIElement = YES;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.snowmac.SnowMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		10A000000000000000000084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = app.snowmac.SnowMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnowMac.app/Contents/MacOS/SnowMac";
+			};
+			name = Debug;
+		};
+		10A000000000000000000085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = app.snowmac.SnowMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnowMac.app/Contents/MacOS/SnowMac";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10A000000000000000000070 /* Build configuration list for PBXProject "SnowMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A000000000000000000080 /* Debug */,
+				10A000000000000000000081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10A000000000000000000071 /* Build configuration list for PBXNativeTarget "SnowMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A000000000000000000082 /* Debug */,
+				10A000000000000000000083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10A000000000000000000072 /* Build configuration list for PBXNativeTarget "SnowMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10A000000000000000000084 /* Debug */,
+				10A000000000000000000085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10A000000000000000000010 /* Project object */;
+}
